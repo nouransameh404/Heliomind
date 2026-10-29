@@ -1,0 +1,54 @@
+{
+  "deployed_model_sha256": "e2e7835a4d6371cef8873b12c1ab011a882adea821f3f0d2ee9e21d27bbe8a7b",
+  "label_source": "Synthetic faults injected by Data Cleaning notebook; not verified human fault annotations",
+  "original_random_split": {
+    "confusion_matrix": [
+      [
+        12918,
+        4
+      ],
+      [
+        2,
+        55
+      ]
+    ],
+    "precision": 0.9322033898305084,
+    "recall": 0.9649122807017544,
+    "F1": 0.9482758620689655,
+    "average_precision": 0.9929228809729245,
+    "rows": 12979,
+    "positives": 57
+  },
+  "chronological_diagnostic": {
+    "cutoff": "2020-06-11 00:00:00",
+    "training_rows": 51032,
+    "test_rows": 13860,
+    "train_only_imputer": true,
+    "deployment_changed": false,
+    "metrics": {
+      "confusion_matrix": [
+        [
+          13806,
+          4
+        ],
+        [
+          19,
+          31
+        ]
+      ],
+      "precision": 0.8857142857142857,
+      "recall": 0.62,
+      "F1": 0.7294117647058823,
+      "average_precision": 0.7910219213352803,
+      "rows": 13860,
+      "positives": 50
+    }
+  },
+  "limitations": [
+    "Original deployed model uses random split; its shuffled CV imputation was fitted before folds.",
+    "Chronological diagnostic refits a separate model; original hyperparameters came from prior random-split search, so this is not a blind external validation.",
+    "Soiling injection modifies a full day while labelling only ten rows. Synthetic labels are incomplete.",
+    "SHAP explains model scores, not a physical fault diagnosis; probabilities are uncalibrated.",
+    "Global SHAP uses the first 512 rows of the deterministic shuffled test split."
+  ]
+}

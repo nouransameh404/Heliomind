@@ -1,0 +1,14 @@
+artifact_uri: file:///workspace/scratch/15af3f18c5f0/Forward48-Update/reports/forward48/mlruns/195771260158442353/3af68c7138b74711b8f13fea8114eb0e/artifacts
+end_time: 1793247536145
+entry_point_name: ''
+experiment_id: '195771260158442353'
+lifecycle_stage: active
+run_id: 3af68c7138b74711b8f13fea8114eb0e
+run_name: xgboost_depth5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1793247536124
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "seasonal_persistence",
+    "run_id": "e925d9a36be84362934cf3c9c2f3e707"
+  },
+  {
+    "name": "mlp_neural",
+    "run_id": "7b2498c680ed44a38a09fd2874378126"
+  },
+  {
+    "name": "ridge",
+    "run_id": "a6bc80e513674389975c22580f19ed08"
+  },
+  {
+    "name": "xgboost_depth3",
+    "run_id": "ced224a0033744c29097bf78a26d5ae3"
+  },
+  {
+    "name": "xgboost_depth5",
+    "run_id": "3af68c7138b74711b8f13fea8114eb0e"
+  },
+  {
+    "name": "xgboost_residual_optuna",
+    "run_id": "710fb17c8e5a4fecb5c70f350bf4dc7c"
+  }
+]

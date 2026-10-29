@@ -1,0 +1,10 @@
+{
+  "forward_notebook_code_cells_executed": 17,
+  "optuna_trials": 8,
+  "services_http_and_DOM": "passed",
+  "anomaly_original_weights": "unchanged",
+  "anomaly_SHAP_additivity": "passed",
+  "anomaly_chronological_diagnostic": "completed, not deployed",
+  "docker_engine_available_here": false,
+  "docker_clean_build": "must run VERIFY_FORECAST.ps1 -Clean on Windows"
+}

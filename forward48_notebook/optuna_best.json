@@ -1,0 +1,10 @@
+{
+  "params": {
+    "n_estimators": 80,
+    "max_depth": 3,
+    "learning_rate": 0.036066660754468675,
+    "reg_lambda": 4.7170520376251766
+  },
+  "validation_MAE": 15.69528468241775,
+  "selection_data": "validation only"
+}

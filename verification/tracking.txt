@@ -1,0 +1,2 @@
+2026/10/29 11:31:06 INFO mlflow.tracking.fluent: Experiment with name 'Solar_Forecast_Seven_24_48h' does not exist. Creating a new experiment.
+Logged 7 runs

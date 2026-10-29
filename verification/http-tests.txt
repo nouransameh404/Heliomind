@@ -1,0 +1,3 @@
+PASS forms + real HTTP: empty validation, explicit examples, edited values, single-row inference, automatic anomaly features, timestamp chart, batches and clear
+PASS forms + real HTTP: service retry and all manual/batch flows
+PASS: four independent service processes, gateway HTTP routing and full DOM interactions.

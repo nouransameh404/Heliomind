@@ -1,0 +1,441 @@
+{
+  "origin": "2025-10-21T00:00:00",
+  "horizon_hours": 48,
+  "selected_model": "seasonal_persistence",
+  "time_basis": "Unshifted source-clock timestamps; site-local convention assumed, not independently confirmed",
+  "total_energy_kwh": 2174.658777637915,
+  "points": [
+    {
+      "period_start": "2025-10-21T00:00:00",
+      "period_end": "2025-10-21T01:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T00:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T01:00:00",
+      "period_end": "2025-10-21T02:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T01:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T02:00:00",
+      "period_end": "2025-10-21T03:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T02:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T03:00:00",
+      "period_end": "2025-10-21T04:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T03:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T04:00:00",
+      "period_end": "2025-10-21T05:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T04:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T05:00:00",
+      "period_end": "2025-10-21T06:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T05:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T06:00:00",
+      "period_end": "2025-10-21T07:00:00",
+      "predicted_power_kw": 5.084324444333756,
+      "predicted_energy_kwh": 5.084324444333756,
+      "seasonal_baseline_kw": 5.084324444333756,
+      "reference_history_timestamp": "2025-10-20T06:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T07:00:00",
+      "period_end": "2025-10-21T08:00:00",
+      "predicted_power_kw": 47.48024298927999,
+      "predicted_energy_kwh": 47.48024298927999,
+      "seasonal_baseline_kw": 47.48024298927999,
+      "reference_history_timestamp": "2025-10-20T07:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T08:00:00",
+      "period_end": "2025-10-21T09:00:00",
+      "predicted_power_kw": 78.50845813751208,
+      "predicted_energy_kwh": 78.50845813751208,
+      "seasonal_baseline_kw": 78.50845813751208,
+      "reference_history_timestamp": "2025-10-20T08:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T09:00:00",
+      "period_end": "2025-10-21T10:00:00",
+      "predicted_power_kw": 120.37336063385108,
+      "predicted_energy_kwh": 120.37336063385108,
+      "seasonal_baseline_kw": 120.37336063385108,
+      "reference_history_timestamp": "2025-10-20T09:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T10:00:00",
+      "period_end": "2025-10-21T11:00:00",
+      "predicted_power_kw": 126.2450586954755,
+      "predicted_energy_kwh": 126.2450586954755,
+      "seasonal_baseline_kw": 126.2450586954755,
+      "reference_history_timestamp": "2025-10-20T10:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T11:00:00",
+      "period_end": "2025-10-21T12:00:00",
+      "predicted_power_kw": 116.63110542297267,
+      "predicted_energy_kwh": 116.63110542297267,
+      "seasonal_baseline_kw": 116.63110542297267,
+      "reference_history_timestamp": "2025-10-20T11:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T12:00:00",
+      "period_end": "2025-10-21T13:00:00",
+      "predicted_power_kw": 137.55116017659392,
+      "predicted_energy_kwh": 137.55116017659392,
+      "seasonal_baseline_kw": 137.55116017659392,
+      "reference_history_timestamp": "2025-10-20T12:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T13:00:00",
+      "period_end": "2025-10-21T14:00:00",
+      "predicted_power_kw": 116.488500595093,
+      "predicted_energy_kwh": 116.488500595093,
+      "seasonal_baseline_kw": 116.488500595093,
+      "reference_history_timestamp": "2025-10-20T13:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T14:00:00",
+      "period_end": "2025-10-21T15:00:00",
+      "predicted_power_kw": 149.35205713907916,
+      "predicted_energy_kwh": 149.35205713907916,
+      "seasonal_baseline_kw": 149.35205713907916,
+      "reference_history_timestamp": "2025-10-20T14:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T15:00:00",
+      "period_end": "2025-10-21T16:00:00",
+      "predicted_power_kw": 101.00050926208525,
+      "predicted_energy_kwh": 101.00050926208525,
+      "seasonal_baseline_kw": 101.00050926208525,
+      "reference_history_timestamp": "2025-10-20T15:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T16:00:00",
+      "period_end": "2025-10-21T17:00:00",
+      "predicted_power_kw": 62.428597609202086,
+      "predicted_energy_kwh": 62.428597609202086,
+      "seasonal_baseline_kw": 62.428597609202086,
+      "reference_history_timestamp": "2025-10-20T16:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T17:00:00",
+      "period_end": "2025-10-21T18:00:00",
+      "predicted_power_kw": 24.826873699824024,
+      "predicted_energy_kwh": 24.826873699824024,
+      "seasonal_baseline_kw": 24.826873699824024,
+      "reference_history_timestamp": "2025-10-20T17:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T18:00:00",
+      "period_end": "2025-10-21T19:00:00",
+      "predicted_power_kw": 1.3591400136550211,
+      "predicted_energy_kwh": 1.3591400136550211,
+      "seasonal_baseline_kw": 1.3591400136550211,
+      "reference_history_timestamp": "2025-10-20T18:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T19:00:00",
+      "period_end": "2025-10-21T20:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T19:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T20:00:00",
+      "period_end": "2025-10-21T21:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T20:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T21:00:00",
+      "period_end": "2025-10-21T22:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T21:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T22:00:00",
+      "period_end": "2025-10-21T23:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T22:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-21T23:00:00",
+      "period_end": "2025-10-22T00:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T23:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T00:00:00",
+      "period_end": "2025-10-22T01:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T00:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T01:00:00",
+      "period_end": "2025-10-22T02:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T01:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T02:00:00",
+      "period_end": "2025-10-22T03:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T02:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T03:00:00",
+      "period_end": "2025-10-22T04:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T03:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T04:00:00",
+      "period_end": "2025-10-22T05:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T04:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T05:00:00",
+      "period_end": "2025-10-22T06:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T05:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T06:00:00",
+      "period_end": "2025-10-22T07:00:00",
+      "predicted_power_kw": 5.084324444333756,
+      "predicted_energy_kwh": 5.084324444333756,
+      "seasonal_baseline_kw": 5.084324444333756,
+      "reference_history_timestamp": "2025-10-20T06:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T07:00:00",
+      "period_end": "2025-10-22T08:00:00",
+      "predicted_power_kw": 47.48024298927999,
+      "predicted_energy_kwh": 47.48024298927999,
+      "seasonal_baseline_kw": 47.48024298927999,
+      "reference_history_timestamp": "2025-10-20T07:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T08:00:00",
+      "period_end": "2025-10-22T09:00:00",
+      "predicted_power_kw": 78.50845813751208,
+      "predicted_energy_kwh": 78.50845813751208,
+      "seasonal_baseline_kw": 78.50845813751208,
+      "reference_history_timestamp": "2025-10-20T08:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T09:00:00",
+      "period_end": "2025-10-22T10:00:00",
+      "predicted_power_kw": 120.37336063385108,
+      "predicted_energy_kwh": 120.37336063385108,
+      "seasonal_baseline_kw": 120.37336063385108,
+      "reference_history_timestamp": "2025-10-20T09:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T10:00:00",
+      "period_end": "2025-10-22T11:00:00",
+      "predicted_power_kw": 126.2450586954755,
+      "predicted_energy_kwh": 126.2450586954755,
+      "seasonal_baseline_kw": 126.2450586954755,
+      "reference_history_timestamp": "2025-10-20T10:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T11:00:00",
+      "period_end": "2025-10-22T12:00:00",
+      "predicted_power_kw": 116.63110542297267,
+      "predicted_energy_kwh": 116.63110542297267,
+      "seasonal_baseline_kw": 116.63110542297267,
+      "reference_history_timestamp": "2025-10-20T11:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T12:00:00",
+      "period_end": "2025-10-22T13:00:00",
+      "predicted_power_kw": 137.55116017659392,
+      "predicted_energy_kwh": 137.55116017659392,
+      "seasonal_baseline_kw": 137.55116017659392,
+      "reference_history_timestamp": "2025-10-20T12:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T13:00:00",
+      "period_end": "2025-10-22T14:00:00",
+      "predicted_power_kw": 116.488500595093,
+      "predicted_energy_kwh": 116.488500595093,
+      "seasonal_baseline_kw": 116.488500595093,
+      "reference_history_timestamp": "2025-10-20T13:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T14:00:00",
+      "period_end": "2025-10-22T15:00:00",
+      "predicted_power_kw": 149.35205713907916,
+      "predicted_energy_kwh": 149.35205713907916,
+      "seasonal_baseline_kw": 149.35205713907916,
+      "reference_history_timestamp": "2025-10-20T14:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T15:00:00",
+      "period_end": "2025-10-22T16:00:00",
+      "predicted_power_kw": 101.00050926208525,
+      "predicted_energy_kwh": 101.00050926208525,
+      "seasonal_baseline_kw": 101.00050926208525,
+      "reference_history_timestamp": "2025-10-20T15:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T16:00:00",
+      "period_end": "2025-10-22T17:00:00",
+      "predicted_power_kw": 62.428597609202086,
+      "predicted_energy_kwh": 62.428597609202086,
+      "seasonal_baseline_kw": 62.428597609202086,
+      "reference_history_timestamp": "2025-10-20T16:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T17:00:00",
+      "period_end": "2025-10-22T18:00:00",
+      "predicted_power_kw": 24.826873699824024,
+      "predicted_energy_kwh": 24.826873699824024,
+      "seasonal_baseline_kw": 24.826873699824024,
+      "reference_history_timestamp": "2025-10-20T17:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T18:00:00",
+      "period_end": "2025-10-22T19:00:00",
+      "predicted_power_kw": 1.3591400136550211,
+      "predicted_energy_kwh": 1.3591400136550211,
+      "seasonal_baseline_kw": 1.3591400136550211,
+      "reference_history_timestamp": "2025-10-20T18:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T19:00:00",
+      "period_end": "2025-10-22T20:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T19:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T20:00:00",
+      "period_end": "2025-10-22T21:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T20:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T21:00:00",
+      "period_end": "2025-10-22T22:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T21:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T22:00:00",
+      "period_end": "2025-10-22T23:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T22:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    },
+    {
+      "period_start": "2025-10-22T23:00:00",
+      "period_end": "2025-10-23T00:00:00",
+      "predicted_power_kw": 0.0,
+      "predicted_energy_kwh": 0.0,
+      "seasonal_baseline_kw": 0.0,
+      "reference_history_timestamp": "2025-10-20T23:00:00",
+      "explanation": "Selected seasonal persistence repeats this completed historical hourly reading"
+    }
+  ]
+}

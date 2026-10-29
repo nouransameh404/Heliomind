@@ -1,0 +1,6 @@
+......Importing plotly failed. Interactive plots will not work.
+...
+----------------------------------------------------------------------
+Ran 9 tests in 0.714s
+
+OK
