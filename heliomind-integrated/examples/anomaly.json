@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "DC_POWER": 1224.75,
+      "AC_POWER": 119.275,
+      "DAILY_YIELD": 34.875,
+      "TOTAL_YIELD": 6259593.875,
+      "AMBIENT_TEMPERATURE": 24.21899,
+      "MODULE_TEMPERATURE": 24.4424439333,
+      "IRRADIATION": 0.0953944536,
+      "hour": 6,
+      "month": 5,
+      "temperature_difference": 0.2234539333,
+      "power_difference": 1105.475,
+      "zero_dc_power": 0,
+      "zero_irradiation": 0,
+      "dc_power_per_irradiation": 12838.7967411137,
+      "previous_dc_power": null,
+      "dc_power_change": null,
+      "previous_daily_yield": null,
+      "daily_yield_change": null
+    },
+    {
+      "DC_POWER": 1734.571429,
+      "AC_POWER": 170.0142857,
+      "DAILY_YIELD": 72.71428571,
+      "TOTAL_YIELD": 6259631.714,
+      "AMBIENT_TEMPERATURE": 24.5373984,
+      "MODULE_TEMPERATURE": 27.1856528667,
+      "IRRADIATION": 0.1419404433,
+      "hour": 7,
+      "month": 5,
+      "temperature_difference": 2.6482544667,
+      "power_difference": 1564.5571433,
+      "zero_dc_power": 0,
+      "zero_irradiation": 0,
+      "dc_power_per_irradiation": 12220.4171571208,
+      "previous_dc_power": 1224.75,
+      "dc_power_change": 509.821429,
+      "previous_daily_yield": 34.875,
+      "daily_yield_change": 37.83928571
+    }
+  ]
+}

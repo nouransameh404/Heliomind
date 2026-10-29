@@ -1,0 +1,1 @@
+window.SOLARAI_CONFIG = { MOCK_MODE: false, API_BASE_URL: '/api', TIMEOUT_MS: 35000 };

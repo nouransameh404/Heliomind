@@ -1,0 +1,25 @@
+textarea{width:100%;min-height:240px;padding:12px;border:1px solid #dce3ed;border-radius:10px;font:12px/1.6 monospace;resize:vertical}details{margin:14px 0}summary{cursor:pointer;margin-bottom:10px}input[type=file]{max-width:200px;font-size:11px}.connection{margin:10px 0;padding:10px 15px;border-radius:10px;background:#edf3ff;color:#254b80}.input-note{font-size:13px;line-height:1.65;color:#637087}.result-table{width:100%;border-collapse:collapse;margin:18px 0}.result-table td,.result-table th{padding:10px;text-align:left;border-bottom:1px solid #e4eaf0}.raw-result{white-space:pre-wrap;overflow-wrap:anywhere;max-height:420px;overflow:auto;font-size:12px}.fields-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.fields-grid label{min-width:0;overflow-wrap:anywhere}.fields-grid input{width:100%}.f label{font-size:12px}.result-title{margin-bottom:15px}.run{margin-top:16px}.status{overflow-wrap:anywhere}@media(max-width:600px){.fields-grid{grid-template-columns:1fr}}
+/* Keep controls compact when expanded settings share a grid row. */
+.f { align-items: start; align-content: start; }
+.f label { align-self: start; align-content: start; }
+.f input, .f select { align-self: start; height: auto; min-height: 0; }
+.f input[type="checkbox"] { width: auto; justify-self: start; }
+.f > details, .f > .input-note { grid-column: 1 / -1; min-width: 0; }
+.split:has(>.card:last-child:empty) .f > :is(.row, details, .input-note) {
+  grid-column: 1 / -1;
+}
+#sSettings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+#sSettings label { min-width: 0; overflow-wrap: anywhere; }
+#sSettings textarea { min-height: 110px !important; }
+@media (max-width: 600px) {
+  #sSettings { grid-template-columns: minmax(0, 1fr); }
+  .row { grid-template-columns: minmax(0, 1fr); }
+}
+
+.site-summary{grid-column:1/-1;padding:14px;border-radius:10px;background:#edf4ff;color:#173e70;line-height:1.6}.site-summary p{margin:6px 0 0;font-size:13px}.f .cnt{grid-column:1/-1}.run:disabled{opacity:.55;cursor:not-allowed}
+
+.result-table {font-size:13px}.card > div:has(> .result-table){max-height:480px;overflow:auto}.result-table th{position:sticky;top:0;background:#fff;z-index:1}
+
+[hidden]{display:none!important}#fMainFields,#fAdvancedFields{grid-column:1/-1}.forecast-chart{width:100%;height:auto;max-height:300px;margin:15px 0}#fSelectLabel{grid-column:1/-1}.forecast-chart text{font:12px sans-serif;fill:#637087}
+
+#aMainFields,#aSettings,#aSelectLabel{grid-column:1/-1}.reading-result{font-size:32px;font-weight:700;margin:20px 0}.reading-result.normal{color:#16875d}.reading-result.anomaly{color:#d43447}

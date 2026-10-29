@@ -1,0 +1,47 @@
+name: solar-ai-platform
+services:
+  gateway:
+    depends_on:
+      forecast:
+        condition: service_healthy
+      anomaly:
+        condition: service_healthy
+      sizing:
+        condition: service_healthy
+    build:
+      context: .
+      dockerfile: gateway/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+  sizing:
+    build:
+      context: .
+      dockerfile: sizing/Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ./sizing:/app/sizing:ro
+  forecast:
+    build:
+      context: .
+      dockerfile: forecast/Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ./forecast/models:/app/forecast/models:ro
+  anomaly:
+    build:
+      context: .
+      dockerfile: anomaly/Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ./anomaly/models:/app/anomaly/models:ro
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "127.0.0.1:5500:80"
+    depends_on:
+      gateway:
+        condition: service_healthy
+    restart: unless-stopped

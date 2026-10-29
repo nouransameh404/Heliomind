@@ -1,0 +1,24 @@
+{
+  "features": [
+    "DC_POWER",
+    "AC_POWER",
+    "DAILY_YIELD",
+    "TOTAL_YIELD",
+    "AMBIENT_TEMPERATURE",
+    "MODULE_TEMPERATURE",
+    "IRRADIATION",
+    "hour",
+    "month",
+    "temperature_difference",
+    "power_difference",
+    "zero_dc_power",
+    "zero_irradiation",
+    "dc_power_per_irradiation",
+    "previous_dc_power",
+    "dc_power_change",
+    "previous_daily_yield",
+    "daily_yield_change"
+  ],
+  "sklearn_version": "1.9.0",
+  "xgboost_version": "3.4.1"
+}

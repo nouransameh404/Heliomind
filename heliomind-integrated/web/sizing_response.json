@@ -1,0 +1,220 @@
+{
+  "currency": "AUD",
+  "status": "preliminary_candidate",
+  "installation_ready": false,
+  "inputs_used": {
+    "system_type": "on-grid",
+    "year": 2025,
+    "monthly_consumption_kwh": 600,
+    "monthly_psh": [
+      4,
+      4.5,
+      5,
+      5.5,
+      6,
+      6.5,
+      6.5,
+      6,
+      5.5,
+      5,
+      4.5,
+      4
+    ],
+    "solar_source": "Illustrative solar resource; NOT measured Alice Springs or NASA data",
+    "solar_period": "Editable teaching scenario; replace with verified monthly site resource",
+    "usable_roof_m2": 40,
+    "panel_watt": 550,
+    "panel_length_m": 2.28,
+    "panel_width_m": 1.13,
+    "performance_ratio": 0.8,
+    "target_offset": 1.0,
+    "spacing_factor": 1.2,
+    "design_dc_ac_ratio": 1.1,
+    "panel_price_aud": 250,
+    "bos_cost_aud": 1500,
+    "annual_maintenance_aud": 150,
+    "import_tariff_aud": 0.3,
+    "export_enabled": false,
+    "export_tariff_aud": 0.05,
+    "self_consumption_ratios": [
+      0.4,
+      0.6,
+      0.8
+    ],
+    "prices_note": "Illustrative AUD inputs only; replace with Australian supplier quotes and your tariff. Not an exchange-rate conversion.",
+    "inverter_catalog": [
+      {
+        "name": "Demo-3",
+        "rated_ac_kw": 3,
+        "price_aud": 1200
+      },
+      {
+        "name": "Demo-5",
+        "rated_ac_kw": 5,
+        "price_aud": 1800
+      },
+      {
+        "name": "Demo-8",
+        "rated_ac_kw": 8,
+        "price_aud": 2500
+      }
+    ]
+  },
+  "solar": {
+    "days_per_month": [
+      31,
+      28,
+      31,
+      30,
+      31,
+      30,
+      31,
+      31,
+      30,
+      31,
+      30,
+      31
+    ],
+    "annual_mean_psh": 5.2534246575342465,
+    "annual_yield_per_kwp": 1534.0,
+    "source": "Illustrative solar resource; NOT measured Alice Springs or NASA data",
+    "period": "Editable teaching scenario; replace with verified monthly site resource"
+  },
+  "panels": {
+    "required_kwp": 4.69361147327249,
+    "requested_count": 9,
+    "requested_area_m2": 27.825119999999995,
+    "selected_count": 9,
+    "installed_kwp": 4.95,
+    "selected_area_m2": 27.825119999999995,
+    "roof_limited": false
+  },
+  "inverter_candidate": {
+    "name": "Demo-5",
+    "rated_ac_kw": 5,
+    "price_aud": 1800,
+    "target_ac_kw": 4.5,
+    "electrical_compatibility_verified": false
+  },
+  "monthly_generation_kwh": [
+    491.0400000000001,
+    498.96000000000004,
+    613.8000000000001,
+    653.4000000000001,
+    736.5600000000001,
+    772.2000000000002,
+    797.9400000000002,
+    736.5600000000001,
+    653.4000000000001,
+    613.8000000000001,
+    534.6000000000001,
+    491.0400000000001
+  ],
+  "annual_generation_kwh": 7593.300000000001,
+  "finance": {
+    "panel_cost_aud": 2250,
+    "inverter_cost_aud": 1800,
+    "bos_cost_aud": 1500,
+    "total_cost_aud": 5550,
+    "status": "illustrative_pending_electrical_design",
+    "scenarios": [
+      {
+        "assumed_ratio": 0.4,
+        "effective_ratio": 0.4,
+        "self_used_kwh": 3037.3200000000006,
+        "grid_imports_kwh": 4162.679999999999,
+        "exported_kwh": 0,
+        "curtailed_kwh": 4555.9800000000005,
+        "solar_coverage": 0.42185000000000006,
+        "bill_before_aud": 2160.0,
+        "bill_after_aud": 1248.8039999999999,
+        "gross_bill_savings_aud": 911.1960000000001,
+        "bill_savings_percent": 42.185,
+        "export_income_aud": 0.0,
+        "annual_net_savings_aud": 761.1960000000001,
+        "simple_payback_years": 7.291157599356801,
+        "monthly_used_kwh": [
+          196.41600000000005,
+          199.58400000000003,
+          245.52000000000004,
+          261.36000000000007,
+          294.624,
+          308.8800000000001,
+          319.1760000000001,
+          294.624,
+          261.36000000000007,
+          245.52000000000004,
+          213.84000000000006,
+          196.41600000000005
+        ]
+      },
+      {
+        "assumed_ratio": 0.6,
+        "effective_ratio": 0.6,
+        "self_used_kwh": 4555.9800000000005,
+        "grid_imports_kwh": 2644.0199999999995,
+        "exported_kwh": 0,
+        "curtailed_kwh": 3037.3200000000006,
+        "solar_coverage": 0.6327750000000001,
+        "bill_before_aud": 2160.0,
+        "bill_after_aud": 793.2059999999998,
+        "gross_bill_savings_aud": 1366.7940000000003,
+        "bill_savings_percent": 63.27750000000002,
+        "export_income_aud": 0.0,
+        "annual_net_savings_aud": 1216.7940000000003,
+        "simple_payback_years": 4.561166475179856,
+        "monthly_used_kwh": [
+          294.624,
+          299.37600000000003,
+          368.28000000000003,
+          392.04,
+          441.93600000000004,
+          463.32000000000005,
+          478.76400000000007,
+          441.93600000000004,
+          392.04,
+          368.28000000000003,
+          320.76000000000005,
+          294.624
+        ]
+      },
+      {
+        "assumed_ratio": 0.8,
+        "effective_ratio": 0.7926103275255818,
+        "self_used_kwh": 6018.528000000001,
+        "grid_imports_kwh": 1181.4719999999988,
+        "exported_kwh": 0,
+        "curtailed_kwh": 1574.772,
+        "solar_coverage": 0.8359066666666668,
+        "bill_before_aud": 2160.0,
+        "bill_after_aud": 354.44159999999965,
+        "gross_bill_savings_aud": 1805.5584000000003,
+        "bill_savings_percent": 83.59066666666668,
+        "export_income_aud": 0.0,
+        "annual_net_savings_aud": 1655.5584000000003,
+        "simple_payback_years": 3.3523432335579337,
+        "monthly_used_kwh": [
+          392.8320000000001,
+          399.16800000000006,
+          491.0400000000001,
+          522.7200000000001,
+          589.248,
+          600,
+          600,
+          589.248,
+          522.7200000000001,
+          491.0400000000001,
+          427.6800000000001,
+          392.8320000000001
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Synthetic/manual solar inputs; no NASA request is made.",
+    "PSH x PR approximation; no detailed shading, thermal or clipping simulation.",
+    "Inverter screening is capacity-only; electrical compatibility is unverified.",
+    "Financial scenarios assume monthly self-consumption ratios, flat tariffs and constant net savings.",
+    "Not installation approval or a guaranteed financial return."
+  ]
+}

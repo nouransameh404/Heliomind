@@ -1,0 +1,2 @@
+Forward forecasting evidence and limits: ../FORWARD_24_48_README.md and ../reports/forward48/.
+API and DOM/HTTP tests passed. Actual Docker/nginx runtime and graphical layout were not tested here.

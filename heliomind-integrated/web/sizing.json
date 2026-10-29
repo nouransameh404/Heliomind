@@ -1,0 +1,58 @@
+{
+  "system_type": "on-grid",
+  "year": 2025,
+  "monthly_consumption_kwh": 600,
+  "monthly_psh": [
+    4,
+    4.5,
+    5,
+    5.5,
+    6,
+    6.5,
+    6.5,
+    6,
+    5.5,
+    5,
+    4.5,
+    4
+  ],
+  "solar_source": "Illustrative solar resource; NOT measured Alice Springs or NASA data",
+  "solar_period": "Editable teaching scenario; replace with verified monthly site resource",
+  "usable_roof_m2": 40,
+  "panel_watt": 550,
+  "panel_length_m": 2.28,
+  "panel_width_m": 1.13,
+  "performance_ratio": 0.8,
+  "target_offset": 1.0,
+  "spacing_factor": 1.2,
+  "design_dc_ac_ratio": 1.1,
+  "panel_price_aud": 250,
+  "bos_cost_aud": 1500,
+  "annual_maintenance_aud": 150,
+  "import_tariff_aud": 0.3,
+  "export_enabled": false,
+  "export_tariff_aud": 0.05,
+  "self_consumption_ratios": [
+    0.4,
+    0.6,
+    0.8
+  ],
+  "prices_note": "Illustrative AUD inputs only; replace with Australian supplier quotes and your tariff. Not an exchange-rate conversion.",
+  "inverter_catalog": [
+    {
+      "name": "Demo-3",
+      "rated_ac_kw": 3,
+      "price_aud": 1200
+    },
+    {
+      "name": "Demo-5",
+      "rated_ac_kw": 5,
+      "price_aud": 1800
+    },
+    {
+      "name": "Demo-8",
+      "rated_ac_kw": 8,
+      "price_aud": 2500
+    }
+  ]
+}

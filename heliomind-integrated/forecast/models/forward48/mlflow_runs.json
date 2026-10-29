@@ -1,0 +1,30 @@
+[
+  {
+    "model": "Ridge_Linear",
+    "run_id": "0a9a4521ce4f41f0a6ea004359c19548"
+  },
+  {
+    "model": "XGBoost_Tree",
+    "run_id": "e2a9f9257b4b415aac384c0195c5485d"
+  },
+  {
+    "model": "LightGBM_Tree",
+    "run_id": "eb69246d2f30406eb83319a0c1829457"
+  },
+  {
+    "model": "MLP_Deep",
+    "run_id": "033323f5b25945699125d96f9597d6ad"
+  },
+  {
+    "model": "Prophet_TS",
+    "run_id": "ac4acce326df47a7a2966eb4925ef007"
+  },
+  {
+    "model": "LSTM_Deep_TS",
+    "run_id": "1f6c32f4adb54368a3e7318bea79d87e"
+  },
+  {
+    "model": "seasonal_persistence",
+    "run_id": "a0e6b0abb7734320ac8ad172262945b3"
+  }
+]

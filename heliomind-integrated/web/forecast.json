@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "ghi": 2.1223614215851,
+      "tilted_radiation": 4.1699938774109,
+      "temperature": 25.154861450195,
+      "hour": 0.0,
+      "month": 1.0,
+      "day_of_week": 2.0,
+      "solar_zenith": 42.93907438958339,
+      "solar_elevation": 47.06092561041661,
+      "power_lag_1h": 0.0,
+      "power_lag_24h": 0.0,
+      "power_roll_mean_1h": 0.0
+    },
+    {
+      "ghi": 1282.8383789062,
+      "tilted_radiation": 1047.4987792969,
+      "temperature": 30.242300033569,
+      "hour": 13.0,
+      "month": 10.0,
+      "day_of_week": 1.0,
+      "solar_zenith": 141.69144713126278,
+      "solar_elevation": -51.69144713126277,
+      "power_lag_1h": 139.69563293457,
+      "power_lag_24h": 191.02133178711,
+      "power_roll_mean_1h": 187.09238560994416
+    }
+  ]
+}

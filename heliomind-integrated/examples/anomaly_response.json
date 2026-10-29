@@ -1,0 +1,13 @@
+{
+  "predictions": [
+    {
+      "is_anomaly": 0,
+      "anomaly_probability": 0.016250232234597206
+    },
+    {
+      "is_anomaly": 0,
+      "anomaly_probability": 4.606870334100677e-06
+    }
+  ],
+  "count": 2
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heliomind – Alice Springs Solar Case Study</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/styles.css"><link rel="stylesheet" href="./assets/integration.css">
+</head>
+<body data-p="sizing">
+
+<aside class="sidebar">
+  <div class="logo">
+    <svg width="44" height="44" viewBox="0 0 48 48" fill="none" stroke="#f7b733" stroke-width="3" stroke-linecap="round"><circle cx="24" cy="24" r="8" fill="#f7b733"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M10 10l4 4M34 34l4 4M10 38l4-4M34 14l4-4"/></svg>
+    <div><span class="name">Heliomind</span><small>Alice Springs Solar Case Study</small></div>
+  </div>
+  <nav class="nav">
+    <button data-p="sizing" class="on"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg>Sizing &amp; Design</button>
+    <button data-p="forecast"><svg viewBox="0 0 24 24"><path d="M3 3v18h18M7 15l4-4 3 3 6-7"/></svg>Forecast</button>
+    <button data-p="anomaly"><svg viewBox="0 0 24 24"><path d="M12 3l10 18H2zM12 10v5M12 18v.5"/></svg>Anomaly Detection</button>
+  </nav>
+  
+</aside>
+
+<main>
+  <div class="brand">
+    <svg width="44" height="44" viewBox="0 0 48 48" fill="none" stroke="#f7b733" stroke-width="3" stroke-linecap="round"><circle cx="24" cy="24" r="8" fill="#f7b733"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M10 10l4 4M34 34l4 4M10 38l4-4M34 14l4-4"/></svg>
+    <div><span class="name">Heliomind</span><small>Alice Springs Solar Case Study</small></div>
+  </div>
+  <div class="topbar">
+    <div class="tl">
+      <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <div><h1>Heliomind · Australia</h1><p>Plan a proposed PV installation, explore DKASC power predictions, and test an inverter anomaly benchmark.</p></div>
+    </div>
+    <div class="avatar">AR</div>
+  </div>
+  <div class="connection" id="connection">Checking services…</div><section class="hero">
+    <div><h2 id="hT"></h2><p id="hP"></p></div>
+  </section>
+
+  <!-- 1. SIZING -->
+  <section class="page on" id="p-sizing"><div class="split">
+    <div class="card">
+      <div class="head"><div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg></div><div><h3>Sizing &amp; Design</h3><p>Proposed on-grid installation · Alice Springs, Australia · AUD</p></div></div>
+      <div class="f">
+        <div class="row"><label>Latitude<input id="sLat" type="number" step="0.01" value="-23.76" readonly></label><label>Longitude<input id="sLon" type="number" step="0.01" value="133.87" readonly></label></div>
+        <div class="chips" data-p="s"></div>
+        <label>Monthly electricity consumption (kWh)<input id="sKwh" type="number" value="600"></label>
+        <label>Roof area (m²)<input id="sArea" type="number" value="40"></label>
+        <label>Budget (AUD)<input id="sBud" type="number" value="10000"></label>
+        <details><summary>Solar resource, panels &amp; pricing</summary><p class="input-note">The starting values are illustrative. Enter 12 monthly PSH values and your equipment prices in AUD. Alice Springs is the planning location. Calculations use the monthly PSH below; changing location does not fetch weather. Prices and tariffs are illustrative inputs, not verified Australian quotes.</p><div id="sSettings"></div></details><button class="run" id="sRun">Design my system</button>
+      </div>
+    </div>
+    <div class="card" id="sOut"></div>
+  </div></section>
+
+  <!-- 2. FORECAST -->
+  <section class="page" id="p-forecast"><div class="split">
+    <div class="card">
+      <div class="head"><div class="icon"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg></div><div><h3>Alice Springs Forecast</h3><p>DKASC solar production · Australia</p></div></div>
+      <div class="f">
+        <div class="site-summary"><strong>Alice Springs / DKASC · Forward forecast</strong><p>Forecast the next 24 or 48 hourly intervals using only completed historical power readings. No future measured weather is used.</p></div>
+        <label>Forecast horizon<select id="fwHorizon"><option value="24">Next 24 hours</option><option value="48" selected>Next 48 hours</option></select></label>
+        <button class="ghost" id="fwExample">Load historical test-period example</button>
+        <label class="drop"><input type="file" id="fwFile" accept=".json,.csv">Upload hourly history JSON / CSV</label>
+        <p class="input-note">At least 48 consecutive completed hourly readings: timestamp, power_kw. Each timestamp marks the start of its measured 1-hour interval. Use the original source clock, without timezone offsets. Timestamp timezone remains a documented assumption.</p>
+        <p id="fwOrigin">No history loaded.</p>
+        <details><summary>View / edit hourly history</summary><textarea id="fwHistory" aria-label="Completed hourly power history"></textarea></details>
+        <button class="run" id="fwRun">Generate forward forecast</button>
+        <p id="fwSource" class="input-note">Source: none. Historical examples are not live forecasts.</p>
+        <details><summary>Previous single-reading model (legacy)</summary>      <div class="f">
+        <div class="site-summary"><strong>Alice Springs · DKASC · Australia</strong><p>Enter a prepared reading to estimate PV power. This is not a future 24–48 hour forecast.</p></div>
+        <button class="ghost" id="fSample">Fill fields from historical project data</button>
+        <label id="fSelectLabel" hidden>Historical reading<select id="fSelect"></select></label>
+        <div id="fMainFields" class="fields-grid"></div>
+        <details><summary>Advanced inputs: time and solar position</summary><p class="input-note">Enter the same time conventions and solar-position values used during training. These fields are sent as entered.</p><div id="fAdvancedFields" class="fields-grid"></div></details>
+        <button class="run" id="fPredict">Predict this reading</button>
+        <p id="fSource" class="input-note" role="status">Input source: manual fields. Fill all required values, or load a historical reading.</p>
+        <details><summary>Optional: upload / predict a batch</summary>
+          <label class="drop"><input type="file" id="fFile" accept=".json,.csv">Upload Alice Springs feature JSON or CSV</label>
+          <p id="fCount">0 rows loaded</p>
+          <textarea id="fJson" aria-label="Forecast feature JSON"></textarea>
+          <button class="run" id="fRun" disabled>Predict batch</button>
+        </details>
+        <button class="ghost" id="fClear" type="button">Clear data &amp; results</button>
+      </div>
+</details>
+      </div>
+    </div>
+    <div class="card" id="fOut" aria-live="polite"><p>Load completed hourly history, then generate a 24–48 hour forward forecast.</p></div>
+  </div></section>
+
+  <!-- 3. ANOMALY -->
+  <section class="page" id="p-anomaly"><div class="split">
+    <div class="card"><div class="head"><div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3l10 18H2zM12 10v5M12 18v.5"/></svg></div><div><h3>Inverter Anomaly Detection</h3><p>Kaggle research model · enter a reading to inspect</p></div></div>
+      <div class="f">
+        <p class="input-note">Enter measured values in the original training units. Differences and ratios are calculated automatically. This model was trained on Kaggle inverter data from India, not DKASC.</p>
+        <button class="ghost" id="aSample">Fill fields from historical project data</button>
+        <label id="aSelectLabel" hidden>Historical reading<select id="aSelect"></select></label>
+        <label>Inverter identifier<input id="aInv" type="text" placeholder="e.g. inverter-01"></label>
+        <div id="aMainFields" class="fields-grid"></div>
+        <details><summary>Yield, time and optional previous readings</summary><div id="aSettings" class="fields-grid"></div></details>
+        <button class="run" id="aPredict">Analyse this reading</button>
+        <p id="aSource" class="input-note" role="status">Input source: manual fields. No readings loaded.</p>
+        <details><summary>Optional: upload / analyse a batch</summary>
+          <label class="drop"><input type="file" id="aFile" accept=".csv,.json">Upload 18 prepared feature columns as CSV / JSON</label>
+          <div class="cnt"><span id="aCnt">0 readings loaded</span></div>
+          <button class="run" id="aRun">Analyse loaded batch</button>
+        </details>
+        <button class="ghost" id="aClr">Clear data &amp; results</button>
+      </div>
+    </div>
+    <div class="card" id="aOut" aria-live="polite"><p>Enter a reading or load historical data. Results appear after you click Analyse.</p></div>
+  </div></section>
+</main>
+<div class="scrim" id="scrim"></div>
+<div id="toast"></div>
+
+<script src="./assets/config.js"></script>
+<script src="./assets/app.js"></script>
+<script src="./assets/forward.js"></script>
+</body>
+</html>

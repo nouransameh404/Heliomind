@@ -1,0 +1,11 @@
+{
+  "parameters": {
+    "n_estimators": 150,
+    "max_depth": 4,
+    "learning_rate": 0.06598254106850841,
+    "reg_lambda": 1.149299930022141
+  },
+  "validation_MAE_kw": 18.25647223823139,
+  "selection_data": "validation only",
+  "n_trials": 8
+}
