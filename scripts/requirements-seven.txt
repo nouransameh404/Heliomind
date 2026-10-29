@@ -1,0 +1,15 @@
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.9.0
+xgboost-cpu==3.4.1
+lightgbm==4.7.0
+prophet==1.5.0
+joblib==1.5.2
+matplotlib==3.11.2
+mlflow-skinny==3.4.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0+cpu
+optuna==4.5.0
+PyYAML
+seaborn
+ipykernel
